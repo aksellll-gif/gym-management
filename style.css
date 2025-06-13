@@ -33,7 +33,7 @@
 .navbar{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/bg.png);
+  background-image: url(/img/bg.png);
  background-size: cover ;
  background-position: top;
 }
@@ -250,7 +250,7 @@ nav ul li:hover::after{
 .ones{
     height: 50vh;
   width: 100%;
-  background-image: url(../img/himage.jpg);
+  background-image: url(/img/himage.jpg);
   background-repeat: no-repeat;
   background-position: center top; 
 
@@ -258,7 +258,7 @@ nav ul li:hover::after{
   
 }
 .mid{
-    background-image: url(../img/bg2S.jpg);
+    background-image: url(/img/bg2S.jpg);
     background-position: top;
     background-size: cover;
     height: 50vh;
@@ -362,7 +362,7 @@ nav ul li:hover::after{
     width: 100%;
     position: relative;
     overflow: hidden;
-    background-image: url(../img/whitebg.jpg);
+    background-image: url(/img/whitebg.jpg);
   
 
 }
@@ -615,7 +615,7 @@ button i{
 }
 
 .foot{
-    background-image: url(../img/mma.png);
+    background-image: url(/img/mma.png);
     background-position: center;
     background-size: cover;
     height: 40vh;

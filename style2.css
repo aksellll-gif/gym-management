@@ -8,7 +8,7 @@
    .navbar{
     height: 70vh;
     width: 100%;
-    background-image: url(../img/bg.png);
+    background-image: url(/img/bg.png);
    background-size: cover ;
    background-position: top;
    overflow: hidden;
@@ -153,7 +153,7 @@
 .sec1{
     height: 200vh;
     width: 100%;
-    background-image:url(../img/ratesbg.png);
+    background-image:url(/img/ratesbg.png);
     background-size: cover;
 }
 .main-head{
@@ -308,7 +308,7 @@ color: #d43d0f;
 }
 
 .foot{
-    background-image: url(../img/mma.png);
+    background-image: url(/img/mma.png);
     background-position: center;
     background-size: cover;
     height: 40vh;
