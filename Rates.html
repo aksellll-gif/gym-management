@@ -14,24 +14,30 @@
 </head>
 
 <body>
-    <div class ="navbar">
-        <nav>
-           
-       <a href="index.html"><h2> <span>HERDOZA</span> FITNESS CENTER</h2></a>
-       <a href="index.html"><img class ="img" src="img/Logo.png" alt="Logo"></a>
-        <div>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "Rates.html">Rates</a></li>
-                <li><a href = "Equipments.html">Equipments</a></li>
-                <li><a href = "Exercises.html">Exercises</a></li>
-                <li><a href = "AboutUs.html">Abouts us</a></li> 
-                
-                <button class ="btn" type = "button" onclick="openModal()"> JOIN US NOW</button> 
-            </ul>
-            </div>
-        
-        </nav>
+    <div class="navbar">
+       <nav class="navbar-nav">
+        <a href="index.html" class="logo-container">
+          <img class="img" src="img/Logo.png" alt="Logo" />
+          <h2 id="head"><span>HERDOZA</span> FITNESS CENTER</h2>
+        </a>
+        <div class="burger" onclick="toggleMenu()">
+          <i class="bi bi-list"></i>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Rates.html">Rates</a></li>
+            <li><a href="Equipments.html">Equipments</a></li>
+            <li><a href="Exercises.html">Exercises</a></li>
+            <li><a href="AboutUs.html">Abouts us</a></li>
+
+            <button class="btn" type="button" onclick="openModal()">
+              JOIN US NOW
+            </button>
+          </ul>
+        </div>
+      </nav>
+      
         <div class="text1">
         <div class ="text">
             <h1>RATES</h1> <br>
@@ -47,9 +53,9 @@
         <section class="sec1">
          <div class="main-head">
        <div class="daily"> 
-        <hr class="hr1">
       <div class="dhead">
           <h2>DAILY</h2>
+          
       <div class="dbody">
         <h3>Gym Access</h3>
         <ul>
@@ -83,9 +89,9 @@
 </div> 
 </div>
 <div class="packages">
-  <hr class="hr1"> 
   <div class="dhead2">
       <h2>PACKAGES</h2>
+
   <div class="dbody">
     <h3>Unlimited Gym Access</h3>
     <ul>
@@ -116,52 +122,42 @@
     </div>
 </section>  
         
-    <footer>
-        <div class="fline">
-            <i class="bi bi-instagram"></i>
-            <h3>FOLLOW US <span class="fspan">@HERDOZAFC</span></h3>
-    
+     <footer>
+      <div class="fline">
+        <i class="bi bi-instagram"></i>
+        <h3>FOLLOW US <span class="fspan">@HERDOZAFC</span></h3>
+      </div>
+
+      <div class="foot">
+        <div class="icons">
+          <div class="icon"><i class="bi bi-facebook"></i></div>
+          <div class="icon"><i class="bi bi-instagram"></i></div>
+          <div class="icon"><i class="bi bi-twitter"></i></div>
+          <div class="icon"><i class="bi bi-youtube"></i></div>
         </div>
-        <div class="flinebtm">
-    
+
+        <div class="contact">
+          <p>+63 917 860 1822</p>
+          <div class="bline"></div>
+          <p>3F Primaverde Building. Concepcion, Baliuag, Bulacan</p>
         </div>
-            <div class = "foot">    
-            <div class ="icon" >
-                <i class="bi bi-facebook"></i>
-                <a href=""></a>
-            </div>
-            <div  class ="icon" >
-                <i class="bi bi-instagram"></i>
-            <a href=""></a>
-            </div>
-              <div class ="icon">
-            <i class="bi bi-twitter"></i>
-            <a href=""></a>
+
+        <div class="privacy">
+          <p>PRIVACY</p>
+          <p>TERMS</p>
         </div>
-        <div class ="icon" >
-            <i class="bi bi-youtube"></i>
-            <a href=""></a>
+
+        <div class="hrfoot">
+          <hr />
+          <div class="footerbottom">
+            <p>
+              Copyright &copy; 2024 Design by
+              <span class="footerb">BAI NA BYTE</span>
+            </p>
+          </div>
         </div>
-        
-    <div class="contact">
-        <p>+63 917 860 1822</p>
-        <div  class="bline">
-    
-        </div>
-        <p> 3F Primaverde Building. Concepcion, Baliuag, Bulacan </p>
-    </div>
-    </div>
-    <div class="privacy">
-        <p> PRIVACY</p>
-        <p> TERMS</p>
-    </div>
-    <div class = "hrfoot">   
-            <hr>
-             <div class="footerbottom">
-             <p>Copyright &copy; 2024 Design by <span class="footerb">BAI NA BYTE</span></p>
-             </div>
-    </div>
-      </footer> 
+      </div>
+    </footer>
       
       <div id="signupModal" class="modal">
         <!-- Modal content -->

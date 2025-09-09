@@ -1,3 +1,24 @@
+  function toggleMenu() {
+    const navLinks = document.querySelector(".nav-links");
+    const burger = document.querySelector(".burger i");
+
+    navLinks.classList.toggle("active");
+
+    // Toggle burger icon
+    if (navLinks.classList.contains("active")) {
+      burger.classList.replace("bi-list", "bi-x");
+    } else {
+      burger.classList.replace("bi-x", "bi-list");
+    }
+  }
+
+  // (Optional) Close menu when a link is clicked
+  document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+      document.querySelector(".nav-links").classList.remove("active");
+      document.querySelector(".burger i").classList.replace("bi-x", "bi-list");
+    });
+  }); 
 window.addEventListener("scroll", function() {
     var navbar = document.querySelector("nav");
     navbar.classList.toggle("sticky", window.scrollY > 0);
@@ -46,7 +67,6 @@ hiddenElements.forEach((el) => observer.observe(el));
         }
       }
 
-     
-
+   
 
     

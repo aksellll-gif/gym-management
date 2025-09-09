@@ -1,161 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style5.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-   
-<title>HERDOZA FITNESS CENTER INFORMATION WEBSITE</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style5.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
-<body>
-    <div class ="navbar">
-        <nav>
-           
-       <a href="index.html"><h2> <span>HERDOZA</span> FITNESS CENTER</h2></a>
-       <a href="index.html"><img class ="img" src="img/Logo.png" alt="Logo"></a>
-        <div>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "Rates.html">Rates</a></li>
-                <li><a href = "Equipments.html">Equipments</a></li>
-                <li><a href = "Exercises.html">Exercises</a></li>
-                <li><a href = "AboutUs.html">Abouts us</a></li> 
-                
-                <button class ="btn" type = "button" onclick="openModal()"> JOIN US NOW</button> 
-                
-            </ul>
-            </div>
-        
-        </nav>
-        <div class="text1">
-        <div class ="text">
-            <h1>ABOUT US</h1> <br>
-            <div class="undereqp">
+    <title>HERDOZA FITNESS CENTER INFORMATION WEBSITE</title>
+  </head>
 
-            </div>
-         </div>
+  <body>
+    <div class="navbar">
+      <nav class="navbar-nav">
+        <a href="index.html" class="logo-container">
+          <img class="img" src="img/Logo.png" alt="Logo" />
+          <h2 id="head"><span>HERDOZA</span> FITNESS CENTER</h2>
+        </a>
+        <div class="burger" onclick="toggleMenu()">
+          <i class="bi bi-list"></i>
         </div>
-        </div>
-        <div class="line">
-        </div>
-     
-        <section class="sec">
-              <div class = "allpic">
-                <div class="pic">
-                <img src="img/jrenz.png" alt="">
-                 <h1>John Renz B.Ocampo</h1>
-                <h3>Researcher</h3>
-                 <p>A researcher conducts methodical study and analysis to gather information, investigate subjects, and contribute to understanding specific topics.</p>
-              </div>
-              <div class="pic">
-                <img src="img/james.png" alt="">
-                <h1>James E. Referente</h1>
-                 <h3>UI/UX Designer</h3>
-                 <p>A UI/UX designer crafts visual and interactive elements for digital products, merging UI design for aesthetics with UX for usability.</p>
-              </div>
-              <div class="pic">
-                <img src="img/john.png" alt="">
-                <h1>John Alvaro F. Juani</h1>
-                 <h3>Project Leader</h3>
-                 <p>A project leader oversees and guides a team through the planning, execution, and completion of a project, ensuring goals are met on time.</p>
-              </div>
-              <div class="pic">
-                <img src="img/axle.png" alt="">
-                <h1>Axle John DG. Jebulan</h1>
-                 <h3>Programmer</h3>
-                 <p>A programmer writes code to create software, employing programming languages for tasks such as development and debugging.</p>
-              </div>
-              <div class="pic">
-                <img src="img/mark.png" alt="">
-                <h1>Mark John L. Urag</h1>
-                 <h3>Researcher</h3>
-                 <p>A researcher conducts methodical study and analysis to gather information, investigate subjects, and contribute to understanding specific topics.</p>
-              </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Rates.html">Rates</a></li>
+            <li><a href="Equipments.html">Equipments</a></li>
+            <li><a href="Exercises.html">Exercises</a></li>
+            <li><a href="AboutUs.html">Abouts us</a></li>
 
-            </div>
-     </section>
-    <footer>
-        <div class="fline">
-            <i class="bi bi-instagram"></i>
-            <h3>FOLLOW US <span class="fspan">@HERDOZAFC</span></h3>
-    
+            <button class="btn" type="button" onclick="openModal()">
+              JOIN US NOW
+            </button>
+          </ul>
         </div>
-        <div class="flinebtm">
-    
-        </div>
-            <div class = "foot">    
-            <div class ="icon" >
-                <i class="bi bi-facebook"></i>
-                <a href=""></a>
-            </div>
-            <div  class ="icon" >
-                <i class="bi bi-instagram"></i>
-            <a href=""></a>
-            </div>
-              <div class ="icon">
-            <i class="bi bi-twitter"></i>
-            <a href=""></a>
-        </div>
-        <div class ="icon" >
-            <i class="bi bi-youtube"></i>
-            <a href=""></a>
-        </div>
-        
-    <div class="contact">
-        <p>+63 917 860 1822</p>
-        <div  class="bline">
-    
-        </div>
-        <p> 3F Primaverde Building. Concepcion, Baliuag, Bulacan </p>
-    </div>
-    </div>
-    <div class="privacy">
-        <p> PRIVACY</p>
-        <p> TERMS</p>
-    </div>
-    <div class = "hrfoot">   
-            <hr>
-             <div class="footerbottom">
-             <p>Copyright &copy; 2024 Design by <span class="footerb">BAI NA BYTE</span></p>
-             </div>
-    </div>
-      </footer> 
-      
-      <div id="signupModal" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close" onclick="closeModal()">&times;</span>
-          <a href="index.html"><img class ="form-logo" src="img/Logo.png" alt="Logo"></a>
-          <a href="index.html"><h2 class="form-hf"> <span>HERDOZA</span> FITNESS CENTER</h2></a>
-          <form id="signupForm" action="#" method="post">
-            <div class="name">
-            <label for="firstname"></label><br>
-            <input type="text" id="firstname" name="firstname" placeholder="First Name"required><br><br> <br> 
-            <label for="lastname"></label><br> 
-            <input type="text" id="lastname" name="lastname" placeholder="Last Name"required><br>
-          </div>
-            <label for="number"></label><br>
-            <input type="number" id="contact" name="contact" placeholder="Contact" required><br>
-            <label for="email"></label><br>
-            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
-            <div class="pass">
-              <label for="password"></label><br>
-              <input type="password" id="password" name="password" placeholder=" Password" required><br> 
-              <label for="cpassword"></label><br>
-              <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password" required><br>
-            </div>
-            <button type="submit">Sign Up</button>
-          </form>
+      </nav>
+      <div class="text1">
+        <div class="text">
+          <h1>ABOUT US</h1>
+          <br />
+          <div class="undereqp"></div>
         </div>
       </div>
-        
-      <script src="script.js"></script>
-</body>
+    </div>
+    <div class="line"></div>
 
+    <section class="sec">
+      <div class="allpic">
+        <div class="pic">
+          <img src="img/jrenz.png" alt="" />
+          <h1>John Renz B.Ocampo</h1>
+          <h3>Researcher</h3>
+          <p>
+            A researcher conducts methodical study and analysis to gather
+            information, investigate subjects, and contribute to understanding
+            specific topics.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="img/james.png" alt="" />
+          <h1>James E. Referente</h1>
+          <h3>UI/UX Designer</h3>
+          <p>
+            A UI/UX designer crafts visual and interactive elements for digital
+            products, merging UI design for aesthetics with UX for usability.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="img/john.png" alt="" />
+          <h1>John Alvaro F. Juani</h1>
+          <h3>Project Leader</h3>
+          <p>
+            A project leader oversees and guides a team through the planning,
+            execution, and completion of a project, ensuring goals are met on
+            time.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="img/axle.png" alt="" />
+          <h1>Axle John DG. Jebulan</h1>
+          <h3>Programmer</h3>
+          <p>
+            A programmer writes code to create software, employing programming
+            languages for tasks such as development and debugging.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="img/mark.png" alt="" />
+          <h1>Mark John L. Urag</h1>
+          <h3>Researcher</h3>
+          <p>
+            A researcher conducts methodical study and analysis to gather
+            information, investigate subjects, and contribute to understanding
+            specific topics.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="fline">
+        <i class="bi bi-instagram"></i>
+        <h3>FOLLOW US <span class="fspan">@HERDOZAFC</span></h3>
+      </div>
+
+      <div class="foot">
+        <div class="icons">
+          <div class="icon"><i class="bi bi-facebook"></i></div>
+          <div class="icon"><i class="bi bi-instagram"></i></div>
+          <div class="icon"><i class="bi bi-twitter"></i></div>
+          <div class="icon"><i class="bi bi-youtube"></i></div>
+        </div>
+
+        <div class="contact">
+          <p>+63 917 860 1822</p>
+          <div class="bline"></div>
+          <p>3F Primaverde Building. Concepcion, Baliuag, Bulacan</p>
+        </div>
+
+        <div class="privacy">
+          <p>PRIVACY</p>
+          <p>TERMS</p>
+        </div>
+
+        <div class="hrfoot">
+          <hr />
+          <div class="footerbottom">
+            <p>
+              Copyright &copy; 2024 Design by
+              <span class="footerb">BAI NA BYTE</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="signupModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <a href="index.html"
+          ><img class="form-logo" src="img/Logo.png" alt="Logo"
+        /></a>
+        <a href="index.html"
+          ><h2 class="form-hf"><span>HERDOZA</span> FITNESS CENTER</h2></a
+        >
+        <form id="signupForm" action="#" method="post">
+          <div class="name">
+            <label for="firstname"></label><br />
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="First Name"
+              required
+            /><br /><br />
+            <br />
+            <label for="lastname"></label><br />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Last Name"
+              required
+            /><br />
+          </div>
+          <label for="number"></label><br />
+          <input
+            type="number"
+            id="contact"
+            name="contact"
+            placeholder="Contact"
+            required
+          /><br />
+          <label for="email"></label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><br /><br />
+          <div class="pass">
+            <label for="password"></label><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=" Password"
+              required
+            /><br />
+            <label for="cpassword"></label><br />
+            <input
+              type="password"
+              id="cpassword"
+              name="cpassword"
+              placeholder="Confirm Password"
+              required
+            /><br />
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
